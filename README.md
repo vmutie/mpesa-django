@@ -8,11 +8,6 @@ It’s built for **learning and testing** in the **Sandbox environment**, and ca
 
 ## 📁 Project Structure
 
-samples/
-    │
-    ├── access_token.py # Generates OAuth access token from Safaricom
-    ├── lipanampesa.py # Sends STK Push (Lipa Na M-Pesa Online)
-    ├── c2b.py # Registers URLs and simulates C2B payments
-    ├── keys.py # Stores credentials (Consumer Key, Secret, Shortcodes)
+
   
 
