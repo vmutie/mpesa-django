@@ -8,7 +8,7 @@ from rest_framework.permissions import AllowAny
 class LNMCallbackurlAPIView(CreateAPIView):
     queryset = LNMOnline.objects.all()
     serializer_class = LNMOnlineSerializer
-    permission_class = [AllowAny]
+    permission_classes = [AllowAny]
 
     # to capute the data
     def create(self, request):
